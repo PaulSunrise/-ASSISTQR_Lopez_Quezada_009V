@@ -58,9 +58,11 @@ Instalar JSON Server
 
 1. Ingresar a CMD y escribir el mando : npm install -g json-server
 2. Para levantar nuestro servidor utilizamos el comando:
-json-server --watch el_nombre_del_archivo.json --host 0.0.0.0 --port 3300
+json-server --watch animalitos.json --host 0.0.0.0 --port 3300
 --------------------------------------------------------------------------
-
+ToastController:
+npm install@capacitor/toast
+--------------------------------
 Para preguntas o ayuda, contactanos en : 
 1. pau.lopezo@duocuc.cl 
 2. oc.quezada@duocuc.cl
