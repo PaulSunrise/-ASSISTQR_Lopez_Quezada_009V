@@ -51,7 +51,7 @@ versión se puede desintalar con el siguiente comando: npm uninstall @ionic.
 4.Para poder levantar o iniciar el proyecto utilizamos el comando:
 ionic serve , con este tendremos disponible el acceso a la app y 
 ya la podremos ver.La URL para acceder será la siguiente:
-http://localhost:8100 , Tambien podemos usar el comando: ionic lab
+http://localhost:3300 , Tambien podemos usar el comando: ionic lab
 en caso de querer ver la app modo telefono.
 ------------------------------------------------------------------------
 Instalar JSON Server
