@@ -1,0 +1,68 @@
+---------------------------------------------------------------------------
+ASSISTQR DUOC...
+---------------------------------------------------------------------------
+Instalaciones recomendadas:
+
+Google chrome
+Visual Studio Code 
+Node
+AngularCLI
+Ionic Framework
+
+---------------------------------------------------------------------------
+Instalación Node.js:
+
+1. Entrar en https://nodejs.org/es/download/ y descargar
+el instalador de Node.js en el sistema operativo deseado. 
+Podemos elegir entre Windows, Mac y Linux.
+
+2. Ejecutar el instalador que acabamos de descargar. 
+Simplemente debemos avanzar en el proceso de instalación.
+
+3. Una vez finalizado el proceso de instalación, podemos
+comprobar fácilmente si se nos ha instalado correctamente. 
+Para ello, vamos al intérprete de comandos de nuestro ordenador
+(en Windows, por ejemplo, escribir “cmd” en la barra de 
+búsqueda y abrir la aplicación de “Símbolo del sistema”).
+
+4.En la ventana de comandos, escribir node -v y pulsar la tecla Enter.
+ Nos debería aparecer la versión que tenemos instalada de Node.js 
+---------------------------------------------------------------------------
+Instalación de Angular:
+
+1.Instalar Node.js y npm.
+
+2. instalar la herramienta Angular CLI.Abre el símbolo del sistema 
+y ejecuta el siguiente comando:npm install -g @angular/cli.
+
+3.Comprueba que la instalación se ha realizado correctamente, ejecuta 
+el siguiente comando en el símbolo del sistema:ng --version.
+---------------------------------------------------------------------------
+Instalación Ionic
+
+1.En la ventana de comandos (CMD), escribir npm install -g @ionic/cli
+para la instalacion.
+
+2.Para este proyecto se utilizo ionic 6 en caso de poser otra 
+versión se puede desintalar con el siguiente comando: npm uninstall @ionic.
+
+3.Para ver la versión utilizamos el comando: ionic-v.
+
+4.Para poder levantar o iniciar el proyecto utilizamos el comando:
+ionic serve , con este tendremos disponible el acceso a la app y 
+ya la podremos ver.La URL para acceder será la siguiente:
+http://localhost:8100 , Tambien podemos usar el comando: ionic lab
+en caso de querer ver la app modo telefono.
+------------------------------------------------------------------------
+Instalar JSON Server
+
+1. Ingresar a CMD y escribir el mando : npm install -g json-server
+2. Para levantar nuestro servidor utilizamos el comando:
+json-server --watch el_nombre_del_archivo.json --host 0.0.0.0 --port 3300
+--------------------------------------------------------------------------
+
+Para preguntas o ayuda, contactanos en : 
+1. pau.lopezo@duocuc.cl 
+2. oc.quezada@duocuc.cl
+
+---------------------------------------------------------------------------
