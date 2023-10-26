@@ -1,20 +1,68 @@
+
+
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <img src="assets/logoassist.jpg" class="logoapp" >
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="container" >
+    
+    <img src="assets/portada2.gif" alt="Portada" class="button-image">
+    <br>
+    <!--<ion-button class="custom-button" expand="full" color="success" shape="round">
+      Ingresar App
+    </ion-button>-->
+    <ion-button (click)="ingresar()" class="custom-button" expand="block" fill="solid" shape="round">
+      Ingresar 
+    </ion-button>
   </div>
 </ion-content>
+
+<ion-footer>
+
+  <ion-toolbar>
+    <br>
+    <div class="icon-container" color="tertiary">
+      <a href="nuevouser">
+        <ion-icon name="person-add-outline" ></ion-icon>
+        <p class="icon-label">¿Usuario<br> Nuevo?</p> 
+      </a>
+    </div>
+   
+    <div class="icon-container">
+      <a href="olvido">
+      <ion-icon name="key-outline"></ion-icon>
+      <p class="icon-label">¿Olvidaste <br>tu clave?</p>
+    </a>
+    </div>
+    
+    <div class="icon-container">
+      <a href="sobre">
+        <ion-icon name="help-circle-outline"></ion-icon>
+        <p class="icon-label">¡Sobre la <br>aplicación!</p>
+      </a>
+    </div>
+    
+    <div class="icon-container">
+      <a href="vivoduoc">
+        <ion-icon name="school-outline"></ion-icon>
+        <p class="icon-label">VivoDuoc</p><br>
+      </a>
+      
+    </div>
+
+    <!--
+    <div class="icon-container">
+      <a href="apiferiado">
+        <ion-icon name="calendar-outline"></ion-icon>
+        <p class="icon-label">Feriados</p><br>
+      </a>
+      
+    </div>
+    -->
+  
+  </ion-toolbar>
+</ion-footer>
+

@@ -1,0 +1,55 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "cachupina",
+      "password": "12345678",
+      "nombre": "octavio quezada",
+      "rut": "11111111-1",
+      "email": "duoc@duocuc.cl",
+      "asignatura1": "castellano",
+      "semestre1": "2010",
+      "anio_asig1": "2010",
+      "horas_asig1": "40",
+      "asignatura2": "matematica",
+      "semestre2": "4",
+      "anio_asig2": "2010",
+      "horas_asig2": "40",
+      "isactive": true
+    },
+    {
+      "username": "demo",
+      "password": "demo1011",
+      "nombre": "octavio",
+      "rut": "130867693",
+      "email": "ssss@paul.cl",
+      "asignatura1": "castellano",
+      "semestre1": "2010",
+      "anio_asig1": "2010",
+      "horas_asig1": "40",
+      "asignatura2": "matematica",
+      "semestre2": "4",
+      "anio_asig2": "2010",
+      "horas_asig2": "40",
+      "isactive": true,
+      "id": 2
+    },
+    {
+      "username": "demo1",
+      "password": "demo1011",
+      "nombre": "octavio andres",
+      "rut": "13086769-3",
+      "email": "dsjhdjsh@duoc.cl",
+      "asignatura1": "castellano",
+      "semestre1": "2010",
+      "anio_asig1": "2010",
+      "horas_asig1": "40",
+      "asignatura2": "matematica",
+      "semestre2": "4",
+      "anio_asig2": "2010",
+      "horas_asig2": "40",
+      "isactive": true,
+      "id": 3
+    }
+  ]
+}
